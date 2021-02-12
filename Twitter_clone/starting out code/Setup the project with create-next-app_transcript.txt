@@ -1,0 +1,101 @@
+Welcome to this guided project about building a full stack
+Twitter clone with next Js.
+My name is Paul, and I'll be your instructor for this project.
+I've been working on small and large web development projects
+for about two years Now.
+This project will give you a head start in to react
+development, which could lead to a brand new full stack
+development career if pursued and expand on properly.
+This project You learn how to start the project from scratch
+with create-next-app, how to build a functional react
+components and pass props down the component tree.
+How to fetch and display all of the tweets in our database.
+And lastly, how to style the components with CSS, you should
+only be familiar with basic HTML, CSS as well as the basics of
+JavaScript, this guide.
+is for web development, beginners, or any students interested
+in the topic of development.
+It is also for developers and students who want to gain
+experience in working with service side rendering frameworks.
+and want to get experience in react, development the goal of.
+This project is not only to build the Twitter like
+application, but also to be able to build any kind of
+application using react.
+And next, before we begin, let us now have a brief overview
+of the Rhyme platform on the right side panel.
+You see my cloud desktop?
+You can see I'm moving my cursor.
+Now on the left hand side, the big cloud desktop PC is yours.
+All right, This is the hands on project, so please watch what
+I'm doing and follow these steps on your own cloud desktop.
+If you need to pause my instructions at any time, please bring
+the cursor on top of my cloud desktop and click the pause.
+button if I'm going too fast or too slow, you can increase or
+decrease the speed of the video by clicking the speed button
+below the pause.
+button as you can see right here, this is the finished product
+that we are going to implement during this project.
+This is the main goal that we want to reach.
+We're going to design a tweet component to display the
+content of the tweet as well as the author and creation date.
+Then in the main page you're seeing right now, we're going to
+fetch the required data from our database and then render a
+tweet components for every tweet.
+Lastly, we will style the components so they can look like
+this. All right, let's dive right in on your cloud desktop.
+You'll see VSCode Open with no directories.
+We will use VSCode throughout this project to write our
+code and write commands.
+In the terminal the window will be divided into three sections.
+That left narrow panel is for the files and folders of our
+project.
+As you can see, we have nothing open right now on the bottom,
+right, we have the terminal panel if it's not open, you
+can go into terminal.
+And then press new terminal to open terminal panel right here
+we will use this to write commands in the terminal, which we'll use
+right now to start our project.
+The last section here in the upper right is the largest area
+in the window, and this is where we'll write our code.
+So let's go ahead right now.
+Typing in the terminal, npx create-next-app .
+and then press enter to start creating our app.
+It will take a couple minutes to finish downloading all the
+packages needed on to set up everything and then to run our
+react server.
+We simply right in npm run dev.
+And we'll wait a while until the react service start.
+As you can see right now, it finished and the server is
+running on local host 3000.
+We can open this if you go to google chrome
+Uh, you'll find the icon on the desktop if it's not open and
+we can type in here local host 3000 to look into our app.
+And as you can see, this is our app right now it's running on
+local host 3000, which means the next server is running
+locally on our computer on port 3000.
+If we switch back to vscode, which is this blue icon
+in the task park will find the files and folders that were
+created by create next app.
+All of our code will live in this Pages folder right here.
+And the most important files right now is this index dot Js
+It has the code of the home page that we saw when we open
+Google Chrome.
+If we remove all of this stuff here and replace it with a
+simple h1 hello world.
+So if we moved all of this yeah,and just added hello world
+and saved with control S We can open Google chrome and we
+can see our text displayed.
+Great. What you just edited is what we call a react component to
+simplify things.
+It is just a function with the return statement that returns
+a bunch of HTML We're right here.
+Export default on then function name, which is similar to
+module exports.
+If you are familiar with the export, the export just makes the
+file visibility to the rest of the project so that we can
+import it from other parts of the code.
+Great job on completing the first part off this project.
+In this task, we learn how to start a react project from
+scratch, using the create next app tool.
+The next task would pick up where we left off here and start
+implementing basic react components.
